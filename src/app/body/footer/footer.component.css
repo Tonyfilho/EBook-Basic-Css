@@ -2,11 +2,30 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-basis: 100%;
+
   height: inherit;
 }
 
 .local-container {
+flex-grow: 3;
 
+}
+.local-container.central  {
+flex-grow: 4;
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 5vh;
+
+}
+
+span > a {
+  color: aliceblue;
+  text-decoration: none;
+
+}
+span > a:hover{
+  color: rgb(90, 120, 146);
+  text-decoration: none;
 
 }
